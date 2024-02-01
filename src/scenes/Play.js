@@ -303,19 +303,6 @@ class Play extends Phaser.Scene {
 
     }
 
-    /*updateGameScore(newGameScore) {
-        // update the game score logic goes here
-    
-        // call the updateHighScore function with the new game score
-        this.updateHighScore(newGameScore);
-    }
-    updateHighScore(newScore) {
-        if (newScore > this.highScore) {
-            this.highScore = newScore;
-            localStorage.setItem("highScore", this.highScore);
-            document.getElementById("high-score").textContent = this.highScore;
-        }
-    }*/
         
     
     shipExplode(ship) {
@@ -334,17 +321,6 @@ class Play extends Phaser.Scene {
         this.scoreLeft.text = this.p1Score
         this.sound.play('sfx-explosion')
     }
-    //shipAnimation(Spaceship) {
-        //Spaceship.alpha = 0
-        //let Shipp = this.add.sprite(Spaceship.x, Spaceship.y, 'SpaceShipn2', ).setOrigin(1,1);
-        //Shipp.anims.play('ShipN')
-        //Shipp.on('animationcomplete' , () => {
-            //Spaceship.reset()
-        //    Spaceship.alpha = 1
-        //    Shipp.destroy()
-        //})
-    //}
-    
 
 
 
@@ -376,30 +352,6 @@ class Play extends Phaser.Scene {
                 }
 }
                 
-    //shipExplode(ship) {
-        //temporarily hide ship
-        //ship.alpha = 0
-        //create explosion sprite at ship's position
-        //let boom = this.add.sprite(ship.x, ship.y, 'explosion').setOrigin(0, 0);
-        //boom.anims.play('explode') //play explode animation
-        //boom.on('animationcomplete', ()   => { //callback after anim compl
-            //ship.reset() // reset ship postion
-            //ship.alpha = 1  //make ship visible again
-            //boom.destroy() //remove explosion sprite
-        //})
-    //}
-        
+     
 }
 
-    //Check Collision2 
-    //if (this.checkCollision(this.p1Rocket, this.ship03)) {
-    //    console.log('kaboom ship 03')
-    //}
-    //if (this.checkCollision(this.p1Rocket, this.ship02)) {
-    //    console.log('kaboom ship 02')
-    //}
-    //if (this.checkCollision(this.p1Rocket, this.ship01)) {
-    //    console.log('kaboom ship 01')
-    //}
-
-    

@@ -7,7 +7,7 @@
 //background (1)
 //Faster new spaceship (5)
 //move rocket after shooting (1)
-//3 frame animation for ships (3)
+//3 frame animation for ships (3) - its kinda hard to see in browser, but there is a gif example i put in assets 
 //ships Faster after 30sec (1)
 //Use Phaser's particle emitter to create a particle explosion when the rocket hits the spaceship (5)
 

@@ -21,9 +21,7 @@ class Spaceship extends Phaser.GameObjects.Sprite {
             this.x = game.config.width
         }
 
-        //Speed and Direction properties
-        //this.speed = speed; 
-        //this.direction = direction;
+        
     }
 
     //method to increase the speed
